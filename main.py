@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 api_key = os.environ.get("OPENWEATHER_API_KEY")
-MY_EMAIL = "aldrinfrades8@gmail.com"
+MY_EMAIL = os.environ.get("MY_EMAIL")
 MY_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 OWM_END_POINT = "https://api.openweathermap.org/data/2.5/forecast"
 
